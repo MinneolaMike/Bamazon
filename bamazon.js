@@ -79,7 +79,7 @@ function showItemsForSale() {
                     // If not show them their total, update the table, and start the process over
                 } else {
                     console.log(chalk.green("============================================================================"))
-                    console.log(chalk.green("ORDER SUCCESSFUL!!! YOUR TOTAL IS $" + (selectedItem.price * parseInt(answer.howMany))));
+                    console.log(chalk.green("ORDER SUCCESSFUL!!! YOUR TOTAL IS $" + (selectedItem.price * parseInt(answer.howMany)).toFixed(2)));
                     console.log(chalk.green("----------------------------------------------------------------------------"))
                     console.log(chalk.green("----------------------------------------------------------------------------"));
                     // Variable for the new stock_quantity

@@ -27,4 +27,5 @@
     * console.table
     * mysql
 * DBeaver
+* Visual Studio Code
 

@@ -5,7 +5,3 @@ VALUES ("Napkins", "Household", 4.99, 400), ("Paper Towels", "Household", 7.65, 
 
 
 
-
-
-
-
